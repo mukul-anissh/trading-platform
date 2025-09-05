@@ -36,8 +36,8 @@ class Stock(base):
     last_price = Column(Numeric(12, 2))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
-    orders = relationship('Order', back_populates='stocks')
-    positions = relationship('Position',  back_populates='stocks')
+    orders = relationship('Order', back_populates='stock')
+    positions = relationship('Position',  back_populates='stock')
 
 # order book
 class Order(base):
