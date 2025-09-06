@@ -1,5 +1,5 @@
 from pydantic import BaseModel, ConfigDict
-from models import OrderSide, OrderStatus
+from app.models import OrderSide, OrderStatus
 from datetime import datetime
 
 class OrderBase(BaseModel):
