@@ -9,3 +9,4 @@ passlib[bcrypt]
 pydantic
 pydantic[email]
 pydantic-settings
+streamlit
