@@ -9,4 +9,5 @@ class StockCreate(StockBase):
 
 class StockOut(StockBase):
     id: int
+    name: str
     model_config = ConfigDict(from_attributes=True)

@@ -10,3 +10,4 @@ pydantic
 pydantic[email]
 pydantic-settings
 streamlit
+requests

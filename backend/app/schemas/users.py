@@ -12,6 +12,8 @@ class UserLogin(UserBase):
 
 class UserOut(UserBase):
     id: int
+    username: str
+    balance: int
     model_config = ConfigDict(from_attributes=True)
 
 class Token(BaseModel):
